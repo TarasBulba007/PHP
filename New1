@@ -25,6 +25,7 @@ $sum1 = $Students1->age + $Students2->age;
 echo '; Сумма возрастов составляет:';
 echo $sum1;
 
+?>
 
 
 

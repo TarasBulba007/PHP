@@ -1,0 +1,30 @@
+<?php
+
+class Students
+{
+    public $name;
+    public $age;
+    public $salary;
+ }
+
+$Students1 = new Students();
+$Students1->name = 'Anton';
+$Students1->age = 25;
+$Students1->salary = 1100;
+
+$Students2 = new Students();
+$Students2->name = 'Oleg';
+$Students2->age = 26;
+$Students2->salary = 2200;
+
+$sum2 = $Students1->salary + $Students2->salary;
+echo 'Сумма стипендий составляет:';
+echo $sum2;
+
+$sum1 = $Students1->age + $Students2->age;
+echo '; Сумма возрастов составляет:';
+echo $sum1;
+
+
+
+
